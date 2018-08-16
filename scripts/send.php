@@ -51,7 +51,7 @@ if ($_POST) {
     $emailgo= new TEmail; 
     $emailgo->from_email= $email; 
     $emailgo->from_name= $name;
-    $emailgo->to_email= 'dev.oaale@gmail.com'; // send the letter
+    $emailgo->to_email= 'oale444@gmail.com'; // send the letter
     $emailgo->to_name= '';
     $emailgo->subject= 'Order a photo session'; // Message subject
     $emailgo->body= $message; 
